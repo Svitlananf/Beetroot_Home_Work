@@ -1,0 +1,544 @@
+{
+  "id": "252c988b-ad53-4bf7-a1d0-bd7be8036a9a",
+  "version": "2.0",
+  "name": "Lesson25",
+  "url": "https://www.flagman.kiev.ua/",
+  "tests": [{
+    "id": "0cca9bf9-0fa0-49f3-9165-b4a51f40a788",
+    "name": "Sort by price from cheapest",
+    "commands": [{
+      "id": "36d5c645-74ee-4712-b33f-0152444731d8",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.flagman.kiev.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2065f152-28da-48fe-8789-b0477f3b042e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4862e43-eb6f-4d16-b31a-843a16eb908e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-menu_item_1",
+      "targets": [
+        ["css=.icon-menu_item_1", "css:finder"],
+        ["xpath=//span[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "143bd6f6-2db9-4d63-9b76-edcc0f8d309d",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > .podmenu-title:nth-child(1) > .menuText",
+      "targets": [
+        ["css=li:nth-child(1) > .podmenu-title:nth-child(1) > .menuText", "css:finder"],
+        ["xpath=//li/div/div/ul/li/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78481db0-f230-4aa0-b09f-82cfdbb3319c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Фідерні вудлища",
+      "targets": [
+        ["linkText=Фідерні вудлища", "linkText"],
+        ["css=.col-md-4:nth-child(1) .title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Фідерні вудлища')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.flagman.kiev.ua/fiderniye-udilischa/c201225/')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba8b71cb-c880-4146-ab8b-34ece95fcbbd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-select > .icon:nth-child(2)",
+      "targets": [
+        ["css=.filter-select > .icon:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]/div/div/div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58b6b620-73e3-4feb-89f0-d0fd1a5aa85a",
+      "comment": "",
+      "command": "select",
+      "target": "css=.filter-select > .icon:nth-child(2)",
+      "targets": [],
+      "value": "label=по цене (от дешевых)"
+    }, {
+      "id": "ac16fa41-83a9-417c-a7df-c386a74b4247",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-catalog_list",
+      "targets": [
+        ["css=.icon-catalog_list", "css:finder"],
+        ["xpath=//div[2]/ul/li[3]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13aa5ca4-568c-41a9-9f03-fa5f64041761",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,16.25)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85bad113-24bc-4227-9244-7bb1d604c909",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show-more_goods",
+      "targets": [
+        ["css=.show-more_goods", "css:finder"],
+        ["xpath=//a[contains(text(),'Показати більше товарів')]", "xpath:link"],
+        ["xpath=//div[@id='goods-parent']/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[86]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09d03bc0-97d2-435f-8c3d-a7e302e13e3c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.show-more_goods",
+      "targets": [
+        ["css=.show-more_goods", "css:finder"],
+        ["xpath=//a[contains(text(),'Показати більше товарів')]", "xpath:link"],
+        ["xpath=//div[@id='goods-parent']/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[86]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33d1d357-1a05-42c4-b75e-55398383e9f3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.show-more_goods",
+      "targets": [
+        ["css=.show-more_goods", "css:finder"],
+        ["xpath=//a[contains(text(),'Показати більше товарів')]", "xpath:link"],
+        ["xpath=//div[@id='goods-parent']/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[86]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d47e5101-69ea-4bff-bdac-df6dba9606d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show-more_goods",
+      "targets": [
+        ["css=.show-more_goods", "css:finder"],
+        ["xpath=//a[contains(text(),'Показати більше товарів')]", "xpath:link"],
+        ["xpath=//div[@id='goods-parent']/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[86]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "017b3ced-5c83-46e8-864a-a94653491cd9",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(4) .icon-pagination_bg",
+      "targets": [
+        ["css=li:nth-child(4) .icon-pagination_bg", "css:finder"],
+        ["xpath=//div[@id='goods-parent']/div[2]/div[2]/ul/li[4]/a/i", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li[4]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9068c4b0-3a4c-43b5-b67d-465bac40b01a",
+    "name": "Add a product to the cart",
+    "commands": [{
+      "id": "859e0bd0-267f-4925-85cc-4fe726eaa773",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.flagman.kiev.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52d97629-2959-4e4e-ba9b-14ab27afc4b6",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-text",
+      "targets": [
+        ["id=search-text", "id"],
+        ["name=text", "name"],
+        ["css=#search-text", "css:finder"],
+        ["xpath=//input[@id='search-text']", "xpath:attributes"],
+        ["xpath=//form[@id='searchForm']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18ad1c62-63a5-45bf-9937-7dbf4b4e1df6",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-text",
+      "targets": [
+        ["id=search-text", "id"],
+        ["name=text", "name"],
+        ["css=#search-text", "css:finder"],
+        ["xpath=//input[@id='search-text']", "xpath:attributes"],
+        ["xpath=//form[@id='searchForm']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "окуляри"
+    }, {
+      "id": "30b7fd7e-1fac-41ac-8cff-cf1f213c3f33",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.active .g-l-i-title",
+      "targets": [
+        ["css=.active .g-l-i-title", "css:finder"],
+        ["xpath=//div[@id='suggest-result']/div/div/ul/li/a/div[2]/div", "xpath:idRelative"],
+        ["xpath=//a/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e9c9e45-af44-43f2-8ce4-95b27aee9927",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active .g-l-i-title",
+      "targets": [
+        ["css=.active .g-l-i-title", "css:finder"],
+        ["xpath=//div[@id='suggest-result']/div/div/ul/li/a/div[2]/div", "xpath:idRelative"],
+        ["xpath=//a/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9199c263-b802-4ec9-a5ea-7c3631e7b0a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.detail-buy > .icon:nth-child(2)",
+      "targets": [
+        ["css=.detail-buy > .icon:nth-child(2)", "css:finder"],
+        ["xpath=//form/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c9f7968-cdb9-4557-a531-d602e1ba641f",
+      "comment": "",
+      "command": "click",
+      "target": "name=quantity",
+      "targets": [
+        ["name=quantity", "name"],
+        ["css=.input-field", "css:finder"],
+        ["xpath=//input[@name='quantity']", "xpath:attributes"],
+        ["xpath=//div[@id='cart_item1']/div/div[2]/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea042e8e-00fc-496c-96e1-b270596a1ed5",
+      "comment": "",
+      "command": "click",
+      "target": "name=quantity",
+      "targets": [
+        ["name=quantity", "name"],
+        ["css=.input-field", "css:finder"],
+        ["xpath=//input[@name='quantity']", "xpath:attributes"],
+        ["xpath=//div[@id='cart_item1']/div/div[2]/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bd1c66d-1e7a-44d0-9991-d18b9b2b2d78",
+      "comment": "",
+      "command": "type",
+      "target": "name=quantity",
+      "targets": [
+        ["name=quantity", "name"],
+        ["css=.input-field", "css:finder"],
+        ["xpath=//input[@name='quantity']", "xpath:attributes"],
+        ["xpath=//div[@id='cart_item1']/div/div[2]/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "f8cc168f-5a6d-437c-9160-4979bdf2976c",
+      "comment": "",
+      "command": "click",
+      "target": "id=to_checkout",
+      "targets": [
+        ["id=to_checkout", "id"],
+        ["css=#to_checkout", "css:finder"],
+        ["xpath=//button[@id='to_checkout']", "xpath:attributes"],
+        ["xpath=//div[@id='cart_popup']/div[4]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'ОФОРМИТИ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "8ffe82c4-1697-41b5-8c96-946a731c2a70",
+    "name": "Sort by new from cheapest",
+    "commands": [{
+      "id": "9e2e1b7d-7c12-4bab-9e42-411f6e9293b8",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.flagman.kiev.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2382e56a-1bf1-42ae-94c5-5f29a90f059d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c05370a-cb67-4599-8f9b-d6598fb60b2c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-menu_item_1",
+      "targets": [
+        ["css=.icon-menu_item_1", "css:finder"],
+        ["xpath=//span[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3862fae-e020-4abb-a89e-a2090bded7a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > .podmenu-title:nth-child(7) > .menuText",
+      "targets": [
+        ["css=li:nth-child(1) > .podmenu-title:nth-child(7) > .menuText", "css:finder"],
+        ["xpath=//a[7]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6af7b1f-7830-4c1a-9a43-f2514bc5c77f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Елементи оснащення",
+      "targets": [
+        ["linkText=Елементи оснащення", "linkText"],
+        ["css=.col-md-4:nth-child(25) .title > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Елементи оснащення')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.flagman.kiev.ua/elementy-osnastky/c274328/')])[2]", "xpath:href"],
+        ["xpath=//div[25]/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Елементи оснащення')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5107eb70-42af-4847-ae01-5ae7ad45c9e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter-select > .icon:nth-child(2)",
+      "targets": [
+        ["css=.filter-select > .icon:nth-child(2)", "css:finder"],
+        ["xpath=//div[2]/div/div/div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bb732e0-cfdc-4aad-ba4b-1e6a81500559",
+      "comment": "",
+      "command": "select",
+      "target": "css=.filter-select > .icon:nth-child(2)",
+      "targets": [],
+      "value": "label=по названию (А-Я)"
+    }, {
+      "id": "94d5f678-2d09-40d2-9a7c-51ae79c3ec53",
+      "comment": "",
+      "command": "click",
+      "target": "css=#logo > img",
+      "targets": [
+        ["css=#logo > img", "css:finder"],
+        ["xpath=//img[@alt='Інтернет-магазин «Flagman»']", "xpath:img"],
+        ["xpath=//a[@id='logo']/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "abda8139-915f-4858-a06e-bd8b19edb71c",
+    "name": "Clik carusel on the top",
+    "commands": [{
+      "id": "22ee0974-f5a6-44e9-a921-47702615dc5e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.flagman.kiev.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98e99b71-172c-469c-80be-24d2e0c3a7f3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d097603-76cf-4be4-8e37-20ed2b221fd8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-next",
+      "targets": [
+        ["css=.slick-next", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9da97f84-4ddd-4459-a55f-67392d7ad117",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-next",
+      "targets": [
+        ["css=.slick-next", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a79499c-b9c7-42b2-a52f-1c48c45f6e12",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-next",
+      "targets": [
+        ["css=.slick-next", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e370df9-be39-404a-86b1-ff781329f2c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-next",
+      "targets": [
+        ["css=.slick-next", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "79233c94-da1a-4e2f-a317-b86aa5a43943",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-next",
+      "targets": [
+        ["css=.slick-next", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8ae315a-660b-4498-b153-7b45dbbc0269",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-next",
+      "targets": [
+        ["css=.slick-next", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3775a8e-1d72-4a65-8534-93bffc716f53",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-next",
+      "targets": [
+        ["css=.slick-next", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "77a0b228-2ec9-49bc-a144-3b56ab3e21d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-next",
+      "targets": [
+        ["css=.slick-next", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4c3924f-f056-4522-8f49-a922635e6ec0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-next",
+      "targets": [
+        ["css=.slick-next", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6de9d0a-cb1c-46d2-b02a-a7c8654ac4b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-next",
+      "targets": [
+        ["css=.slick-next", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea2c0e1c-57c4-4636-86cf-e7b81bf8bcf6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-next",
+      "targets": [
+        ["css=.slick-next", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89c21d4c-e753-49dd-8161-c69eeac88e97",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-next",
+      "targets": [
+        ["css=.slick-next", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fe69231-a7fc-4af4-84c6-b860f944e5cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-next",
+      "targets": [
+        ["css=.slick-next", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "80bde041-d9e6-439a-923a-507c421a32f2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.flagman.kiev.ua/"],
+  "plugins": []
+}
